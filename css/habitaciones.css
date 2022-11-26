@@ -1,0 +1,145 @@
+
+.carousel {
+    width: 90%;
+}
+
+.seccion2{
+    width: 100%;
+    height: 100%;
+    margin:5px auto;
+}
+.carousel-item img{
+    width: 90%;
+}
+.contCarr{
+    width: 500px;
+    height: 300px;
+
+}
+.contText{
+    width: 400px;
+    height: 1000px;
+    float:right;
+
+}
+#even{
+
+    background: rgb(255,255,255);
+    background: url(../imagen/ftra.png);
+    background-repeat: repeat-x;
+    background-size: 150%;
+    margin-top: -20px;
+    font-size: larger; 
+   font-family: fantasy;
+   height: 1300px;
+}
+.card-border{
+    border: solid 10px white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+.contenedor{
+    width: 70%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 35px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.contenedor:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+.card img{
+    height: 300px;
+}
+.contenedor p{
+    font-size: 3rem;
+    color: darkgoldenrod;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgb(0,0,0,0.8);
+
+}
+.centrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Contenido de habitaciones*/
+.habit{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+
+}
+.habit img{
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.habit p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    left: 300px;
+}
+.habit h6{
+    color: goldenrod;
+    font-weight: 700;
+}
+.habit h3{
+    font-family: 800;
+    left: 300px;
+}
+.text-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.faci p{
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+.eventos img{
+    width: 500px;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+.eventos h3{
+    text-align: center;
+    font-weight: bolder;
+}
+.eventos p{
+    color: goldenrod;
+    font-weight: bold;
+}
+.map{
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
